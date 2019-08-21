@@ -46,3 +46,14 @@ When using one of the Command-Line Build Tool Generators CMake expects that the 
 When using one of the IDE Build Tool Generators, no particular environment is needed.
 
 ### Generate a Project Buildsystem
+
+### Build a Project
+
+CMake provides a command-line signature to build an already-generated project binary tree:
+```
+cmake --build <dir> [<options>] [-- <build-tool-options>]
+```
+This abstracts a native build tool's command-line interface with the following options:
+- `--build <dir>`
+Project binary directory to be built.
+This is required and must be first.

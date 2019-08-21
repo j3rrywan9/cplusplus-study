@@ -3,7 +3,7 @@
 #include <string>
 
 std::string say_hello() {
-    return std::string("Hello, xorld!");
+    return std::string("Hello, world!");
 }
 
 int main() {
