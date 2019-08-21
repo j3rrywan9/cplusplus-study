@@ -2,11 +2,13 @@
 #include <iostream>
 #include <string>
 
-std::string say_hello() {
-    return std::string("Hello, world!");
+using namespace std;
+
+string say_hello() {
+    return string("Hello, world!");
 }
 
 int main() {
-    std::cout << say_hello() << std::endl;
+    cout << say_hello() << endl;
     return EXIT_SUCCESS;
 }
