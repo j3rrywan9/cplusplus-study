@@ -39,3 +39,35 @@ An item of data of a class type is referred to as an *object*.
 
 A *template* is a recipe that you create to be used by the compiler to generate code automatically for a class or function customized for a particular type or types.
 
+## Introducing Fundamental Types of Data
+
+### Variables, Data, and Data Types
+
+A *variable* is a named piece of memory that you define.
+Each variable stores data only of a particular type.
+Every variable has a *type* that defines the kind of data it can store.
+Each fundamental type is identified by a unique type name that consists of one or more *keywords*.
+
+## Working with Fundamental Data Types
+
+### Enumerated Data Types
+
+When you define an enumeration, you're creating a new type, so it's also referred to as an *enumerated data type*.
+
+Each enumerator will be automatically defined to have a fixed integer value of type `int` by default.
+
+### Aliases for Data Types
+
+## Making Decisions
+
+### Comparing Data Values
+
+You can compare data values using some new operators called *relational operators*.
+
+### The `if` Statement
+
+### The `if-else` Statement
+
+### Logical Operator
+
+Using logical operators, you can combine a series of comparisons into a single expression so that you need just one `if`, almost regardless  of the complexity of the set of conditions.
